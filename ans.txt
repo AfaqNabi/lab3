@@ -1,0 +1,12 @@
+Q1: 
+Q2: shows the default django startup page with docs
+Q3: / shows a 404 and /polls shows the html in index()
+Q4: A migration is used to tell the database to update our schema for the app i.e adding or updating models
+Q5: I see two new models on the admin site, getting custome models to appear in the admin site we must register them in the admin.py file
+Q6: when i enter the various routes the respective html shows up from views.py. if i put a string i get a 404 because django expects a int. to pass a string we can change the expected argument to a 'slug' type
+Q7: because urls may change depending on where the app is deployed if domain changes or if your wokring in dev or prod environment
+Q8: the benefits if using generic views in django is that you dont have to write boilerplate code that will be the same no matter what ur models argument
+you should use generic views when your models are simple and that code can be abstarcted away. you shouldnt use generic views
+when you need a high level of customization for your model with the client/sevrer interaction. for example if you need aggregate data from other services
+
+
