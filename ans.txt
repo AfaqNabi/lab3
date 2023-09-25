@@ -1,4 +1,4 @@
-Q1: 
+Q1: https://github.com/AfaqNabi/lab3.git
 Q2: shows the default django startup page with docs
 Q3: / shows a 404 and /polls shows the html in index()
 Q4: A migration is used to tell the database to update our schema for the app i.e adding or updating models
